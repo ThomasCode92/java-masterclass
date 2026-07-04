@@ -6,6 +6,20 @@ public class Account {
     private String customerEmail;
     private String customerPhone;
 
+    public Account() {
+        System.out.println("Empty constructor called");
+    }
+
+    public Account(String number, double balance, String customerName, String email,
+                   String phone) {
+        System.out.println("Account constructor with parameters called");
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        customerEmail = email;
+        customerPhone = phone;
+    }
+
     public String getNumber() {
         return number;
     }
@@ -48,18 +62,15 @@ public class Account {
 
     public void depositFunds(double depositAmount) {
         balance += depositAmount;
-        System.out.println("Deposit of $" + depositAmount + " made. New balance is $" +
-                balance);
+        System.out.println("Deposit of $" + depositAmount + " made. New balance is $" + balance);
     }
 
     public void withdrawFunds(double withdrawalAmount) {
         if (balance - withdrawalAmount < 0) {
-            System.out.println("Insufficient Funds! You only have $" + balance +
-                    " in your account.");
+            System.out.println("Insufficient Funds! You only have $" + balance + " in your account.");
         } else {
             balance -= withdrawalAmount;
-            System.out.println("Withdrawal of $" + withdrawalAmount +
-                    " processed, Remaining balance = $" + balance);
+            System.out.println("Withdrawal of $" + withdrawalAmount + " processed, Remaining balance = $" + balance);
         }
     }
 }
