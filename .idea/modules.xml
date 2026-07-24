@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/InheritanceChallenge/InheritanceChallenge.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/InheritanceChallenge/InheritanceChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Records/Records.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Records/Records.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/StringFormatting/StringFormatting.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/StringFormatting/StringFormatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/TheObjectClass/TheObjectClass.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/TheObjectClass/TheObjectClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-masterclass.iml" filepath="$PROJECT_DIR$/.idea/java-masterclass.iml" />
     </modules>
