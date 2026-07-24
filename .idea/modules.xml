@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/AllAboutStrings/AllAboutStrings.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/AllAboutStrings/AllAboutStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/BankAccount/BankAccount.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Classes/Classes.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Classes/Classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/CustomerData/CustomerData.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/CustomerData/CustomerData.iml" />
