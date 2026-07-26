@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/AllAboutStrings/AllAboutStrings.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/AllAboutStrings/AllAboutStrings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/BankAccount/BankAccount.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Classes/Classes.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Classes/Classes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/CustomerData/CustomerData.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/CustomerData/CustomerData.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Inheritance/Inheritance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/InheritanceChallenge/InheritanceChallenge.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/InheritanceChallenge/InheritanceChallenge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/Records/Records.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/Records/Records.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/StringFormatting/StringFormatting.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/StringFormatting/StringFormatting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/StringOptions/StringOptions.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/StringOptions/StringOptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/TheObjectClass/TheObjectClass.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/TheObjectClass/TheObjectClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/text-strings/AllAboutStrings/AllAboutStrings.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/text-strings/AllAboutStrings/AllAboutStrings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/Classes/Classes.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/Classes/Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/CustomerData/CustomerData.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/CustomerData/CustomerData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/inheritance/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/inheritance/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/challenges/InheritanceChallenge/InheritanceChallenge.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/challenges/InheritanceChallenge/InheritanceChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/Records/Records.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/classes-constructors/Records/Records.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/text-strings/StringFormatting/StringFormatting.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/text-strings/StringFormatting/StringFormatting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/text-strings/StringOptions/StringOptions.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/text-strings/StringOptions/StringOptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-classes-inheritance/inheritance/TheObjectClass/TheObjectClass.iml" filepath="$PROJECT_DIR$/oop-classes-inheritance/inheritance/TheObjectClass/TheObjectClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-masterclass.iml" filepath="$PROJECT_DIR$/.idea/java-masterclass.iml" />
     </modules>
   </component>
