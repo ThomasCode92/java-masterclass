@@ -2,12 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Item coke = new Item(Type.DRINK, "coke", 1.5);
-        coke.printItem();
-        coke.setSize(Size.LARGE);
-        coke.printItem();
+        MealOrder mealOrder = new MealOrder();
+        mealOrder.addBurgerToppings("BACON", "CHEESE", "MAYO");
+        mealOrder.setDrinkSize(Size.LARGE);
+        mealOrder.printItemizedList();
 
-        Item avocado = new Item(Type.TOPPING, "avocado", 1.5);
-        avocado.printItem();
+        System.out.println("-".repeat(35));
+        
+        MealOrder secondMeal = new MealOrder("turkey", "7-up", "chili");
+        secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
+        secondMeal.setDrinkSize(Size.SMALL);
+        secondMeal.printItemizedList();
     }
 }
