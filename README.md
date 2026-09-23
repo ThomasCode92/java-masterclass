@@ -30,9 +30,24 @@ VS Code to recognize and configure standalone Java projects.
 
 ### 🤖 AI Usage
 
+#### 🧠 Skills
+
 The repository has a couple of Skills that AI agents can use to help with a
 couple of tasks. The Skills are located in the [.agents](./.agents) folder.
 
 - `/create-pull-request`: Create a pull-request for the current branch.
 - `/create-readme`: Create a README.md file for a project. The README.md file
   will be created in the root of the project folder.
+
+#### 🦺 Agent Harness
+
+The `opencode.json` file in the root of the repository contains the
+configuration for [OpenCode](https://opencode.com/). It adds the
+[Ollama Cloud](https://ollama.com/) provider to OpenCode.
+
+Before opening OpenCode, make sure to set the `OLLAMA_API_KEY` environment
+variable with your Ollama API key.
+
+```shell
+export OLLAMA_API_KEY=<your-ollama-api-key>
+```
