@@ -13,9 +13,10 @@ job-ready Java development skills.
 
 ### 📜 Table of Content
 
-| Module                       | Description                                             | Link                                          |
-| ---------------------------- | ------------------------------------------------------- | --------------------------------------------- |
-| OOP: Classes and Inheritance | Classes, Constructors, Inheritance, and String handling | [README](./oop-classes-inheritance/README.md) |
+| Module                                  | Description                                             | Link                                          |
+| --------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
+| OOP: Classes and Inheritance            | Classes, Constructors, Inheritance, and String handling | [README](./oop-classes-inheritance/README.md) |
+| OOP: Advanced Techniques                | Composition, Encapsulation, Polymorphism, and Packages  | [README](./advanced-oop-techniques/README.md) |
 
 ### 🔢 Multiple Java Projects
 
