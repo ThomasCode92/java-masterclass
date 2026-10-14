@@ -13,34 +13,45 @@ job-ready Java development skills.
 
 ### 📜 Table of Content
 
-| Module                                  | Description                                             | Link                                          |
-| --------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
-| OOP: Classes and Inheritance            | Classes, Constructors, Inheritance, and String handling | [README](./oop-classes-inheritance/README.md) |
-| OOP: Advanced Techniques                | Composition, Encapsulation, Polymorphism, and Packages  | [README](./advanced-oop-techniques/README.md) |
+| Module                       | Description                                             | Link                                          |
+|------------------------------|---------------------------------------------------------|-----------------------------------------------|
+| OOP: Classes and Inheritance | Classes, Constructors, Inheritance, and String handling | [README](./oop-classes-inheritance/README.md) |
+| OOP: Advanced Techniques     | Composition, Encapsulation, Polymorphism, and Packages  | [README](./advanced-oop-techniques/README.md) |
 
 ### 🔢 Multiple Java Projects
 
-Each Java project folder contains a `.project` file and a `.classpath` file.
-These are Eclipse-compatible project descriptors used by the Java extension in
-VS Code to recognize and configure standalone Java projects.
+This repository is a collection of small, focused Java projects rather than a
+single application. Projects are grouped by topic so that each example can be
+opened, run, and studied independently.
 
-- `.project` identifies the folder as a Java project. It declares the project
-  name, Java builder, and Java language-server nature.
-- `.classpath` defines the Java runtime, the `src` source folder, and the `bin`
-  folder where compiled classes are written.
+#### 📁 How Projects Are Organized
 
-### 🤖 AI Usage
+- **Topic folders** group related lessons, for example `inheritance` or `text-strings`.
+- **Project folders** contain the source for one single project in a `src/` directory with a `Main.java` entry point.
+- **Challenges** contain exercises that apply several concepts together, grouped in a module's `challenges/` directory.
+- Each module README documents the projects and the Java concepts covered.
 
-#### 🧠 Skills
+#### ▶️ Running a Project
+
+1. Open the repository in [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+2. Open the project folder you want to explore.
+3. Select the `Main` class and run it from the editor.
+
+The projects use IntelliJ IDEA's build system and Java 17. Generated output
+folders such as `bin/` and `out/` are ignored by Git, so only the source and
+project configuration need to be retained.
+
+## 🤖 AI Usage
+
+### 🧠 Skills
 
 The repository has a couple of Skills that AI agents can use to help with a
 couple of tasks. The Skills are located in the [.agents](./.agents) folder.
 
 - `/create-pull-request`: Create a pull-request for the current branch.
-- `/create-readme`: Create a README.md file for a project. The README.md file
-  will be created in the root of the project folder.
+- `/create-readme`: Create a README.md file for a module.
 
-#### 🦺 Agent Harness
+### 🦺 Agent Harness
 
 The `opencode.json` file in the root of the repository contains the
 configuration for [OpenCode](https://opencode.com/). It adds the
