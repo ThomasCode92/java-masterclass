@@ -1,5 +1,7 @@
 package dev.t4s;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -20,11 +22,25 @@ public class Main {
         System.out.println("last = " + firstTen[arrayLength - 1]);
 
 
-        int[] newArray;
-        newArray = new int[]{5, 4, 3, 2, 1};
-
+        int[] newArray = new int[5];
         for (int i = 0; i < newArray.length; i++) {
-            System.out.print(newArray[i] + " ");
+            newArray[i] = newArray.length - i;
         }
+        for (int element : newArray) {
+            System.out.print(element + " ");
+        }
+
+        System.out.println();
+        System.out.println(Arrays.toString(newArray));
+
+        Object objectVarialbe = newArray;
+        if (objectVarialbe instanceof int[]) {
+            System.out.println("objectVariable is really an int array");
+        }
+
+        Object[] objectArray = new Object[3];
+        objectArray[0] = "Hello";
+        objectArray[1] = new StringBuilder("World");
+        objectArray[2] = newArray;
     }
 }
