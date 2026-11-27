@@ -17,6 +17,7 @@ job-ready Java development skills.
 |------------------------------|---------------------------------------------------------|-----------------------------------------------|
 | OOP: Classes and Inheritance | Classes, Constructors, Inheritance, and String handling | [README](./oop-classes-inheritance/README.md) |
 | OOP: Advanced Techniques     | Composition, Encapsulation, Polymorphism, and Packages  | [README](./advanced-oop-techniques/README.md) |
+| Advanced Arrays              | Array Basics, Utilities, References, and varargs        | [README](./advanced-arrays/README.md)          |
 
 ### 🔢 Multiple Java Projects
 
